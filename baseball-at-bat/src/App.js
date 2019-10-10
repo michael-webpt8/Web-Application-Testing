@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import Strikes from './components/dashboard/Strikes';
+
 import './App.css';
-import Display from './components/display/Display';
+import Display from './components/Display';
 
 function App() {
-  const [strikes, setStrikes] = useState(0);
+  const [strike, setStrike] = useState(0);
+  const [ball, setBall] = useState(0);
+  const [foul, setFoul] = useState(0);
+  const [hit, setHit] = useState(0);
   return (
     <div className='App'>
       <h1>Baseball</h1>
