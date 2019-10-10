@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './App.css';
 import Display from './components/Display';
+import Dashboard from './components/Dashboard';
 
 function App() {
   const [strike, setStrike] = useState(0);
@@ -12,6 +13,7 @@ function App() {
     <div className='App'>
       <h1>Baseball</h1>
       <Display />
+      <Dashboard />
     </div>
   );
 }
