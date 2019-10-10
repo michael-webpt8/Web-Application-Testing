@@ -20,3 +20,12 @@
 .App-link {
   color: #09d3ac;
 }
+
+.display-board {
+  display: flex;
+  justify-content: center;
+}
+
+.display-board div {
+  margin-right: 20px;
+}
