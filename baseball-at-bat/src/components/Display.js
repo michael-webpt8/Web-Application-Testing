@@ -14,10 +14,6 @@ const Display = props => {
           <p>0</p>
         </div>
         <div>
-          <h3>Foul</h3>
-          <p>0</p>
-        </div>
-        <div>
           <h3>Hit</h3>
           <p>0</p>
         </div>
