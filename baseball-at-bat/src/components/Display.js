@@ -7,15 +7,15 @@ const Display = props => {
       <div className='display-board'>
         <div>
           <h3>Strike</h3>
-          <p>0</p>
+          <p>{props.strike}</p>
         </div>
         <div>
           <h3>Ball</h3>
-          <p>0</p>
+          <p>{props.ball}</p>
         </div>
         <div>
           <h3>Hit</h3>
-          <p>0</p>
+          <p>{props.hit}</p>
         </div>
       </div>
     </>
