@@ -3,7 +3,6 @@ import React from 'react';
 const Display = props => {
   return (
     <>
-      <h3>Display board</h3>
       <div className='display-board'>
         <div>
           <h3>Strike</h3>
