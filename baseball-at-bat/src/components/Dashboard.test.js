@@ -8,24 +8,24 @@ afterEach(rtl.cleanup);
 
 test('Strike button is pressed once', () => {
   const { getByText } = rtl.render(<Dashboard />);
-  const rightClick = { button: 2 };
+  const rightClick = { button: 0 };
   fireEvent.click(getByText(/strike/i), rightClick);
 });
 
 test('Ball button is pressed once', () => {
   const { getByText } = rtl.render(<Dashboard />);
-  const rightClick = { button: 2 };
+  const rightClick = { button: 0 };
   fireEvent.click(getByText(/ball/i), rightClick);
 });
 
 test('Foul button is pressed once', () => {
   const { getByText } = rtl.render(<Dashboard />);
-  const rightClick = { button: 2 };
+  const rightClick = { button: 0 };
   fireEvent.click(getByText(/foul/i), rightClick);
 });
 
 test('hit button is pressed once', () => {
   const { getByText } = rtl.render(<Dashboard />);
-  const rightClick = { button: 2 };
+  const rightClick = { button: 0 };
   fireEvent.click(getByText(/hit/i), rightClick);
 });

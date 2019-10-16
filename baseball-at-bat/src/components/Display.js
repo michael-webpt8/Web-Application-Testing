@@ -6,7 +6,7 @@ const Display = props => {
       <div className='display-board'>
         <div>
           <h3>Strike</h3>
-          <p>{props.strike}</p>
+          <p data-testid='strikeouts'>{props.strike}</p>
         </div>
         <div>
           <h3>Ball</h3>
